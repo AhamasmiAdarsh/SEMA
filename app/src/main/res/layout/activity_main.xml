@@ -5,6 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:fitsSystemWindows="true"
+    android:background="@drawable/gradient"
     tools:context=".MainActivity">
 
     <FrameLayout
@@ -13,6 +14,7 @@
         android:layout_height="0dp"
         app:layout_constraintBottom_toTopOf="@+id/readableBottomBar"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
 
@@ -23,15 +25,22 @@
         android:id="@+id/readableBottomBar"
         android:layout_width="match_parent"
         android:layout_height="56dp"
+        android:alpha="87"
+        android:backgroundTintMode="src_over"
+        android:isScrollContainer="false"
+        android:keepScreenOn="false"
+        android:requiresFadingEdge="horizontal|vertical"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/container"
         app:rbb_activeItemType="text"
-        app:rbb_backgroundColor="@color/LawnGreen"
-        app:rbb_indicatorColor="@color/LawnGreen"
+        app:rbb_backgroundColor="@color/LightGrey"
+        app:rbb_indicatorColor="@color/DodgerBlue"
         app:rbb_tabs="@xml/tabs"
-        app:rbb_textColor="@color/SandyBrown" />
+        app:layout_optimizationLevel="barrier"
+        app:rbb_textColor="@color/Black" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

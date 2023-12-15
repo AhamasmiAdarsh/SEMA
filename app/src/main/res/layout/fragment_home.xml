@@ -1,15 +1,217 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/frameLayout"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/gradient"
 
     tools:context=".Fragment.HomeFragment">
 
-    <!-- TODO: Update blank fragment layout -->
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="Home Fragment" />
 
-</FrameLayout>
+    <androidx.constraintlayout.widget.ConstraintLayout
+
+        android:id="@+id/header"
+        android:layout_width="411dp"
+        android:layout_height="60dp"
+        android:layout_marginBottom="651dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.05">
+
+        <ImageView
+            android:id="@+id/notification"
+            android:layout_width="31dp"
+            android:layout_height="26dp"
+            android:layout_marginStart="354dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="17dp"
+            android:layout_marginBottom="16dp"
+            android:src="@drawable/bell"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <ImageView
+            android:id="@+id/coins"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginStart="338dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginBottom="16dp"
+            android:src="@drawable/star"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/notification"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <ImageView
+            android:id="@+id/sema"
+            android:layout_width="124dp"
+            android:layout_height="42dp"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="141dp"
+            android:layout_marginBottom="5dp"
+            android:paddingStart="5dp"
+            android:src="@drawable/sema"
+
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/coins"
+            app:layout_constraintHorizontal_bias="0.255"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <ScrollView
+
+        android:layout_width="410dp"
+        android:layout_height="615dp"
+        android:contentDescription="@string/graph"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/header"
+        app:layout_constraintVertical_bias="0.0"
+        tools:ignore="ScrollViewCount">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="600dp"
+            android:paddingTop="10dp">
+
+            <TextView
+                android:id="@+id/Hello"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="32dp"
+                android:layout_marginEnd="315dp"
+                android:alpha="0.87"
+                android:fontFamily="@font/itim"
+                android:text="Hello,"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                android:textColor="@color/White"
+                android:textSize="25dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="@+id/logo" />
+
+            <TextView
+                android:id="@+id/Name"
+                android:layout_width="166dp"
+                android:layout_height="70dp"
+                android:layout_marginStart="26dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="245dp"
+                android:alpha="0.87"
+                android:fontFamily="@font/jaldi"
+                android:text="Adarsh!"
+                android:textColor="@color/White"
+                android:textSize="50dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.037"
+
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/ViewProfile"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/jost"
+                android:text="View Profile >"
+                android:textColor="@color/DodgerBlue"
+                android:textSize="15sp"
+                app:layout_constraintStart_toStartOf="@+id/Hello"
+                app:layout_constraintTop_toBottomOf="@id/Name" />
+
+            <ImageView
+                android:id="@+id/logo"
+                android:layout_width="99dp"
+                android:layout_height="100dp"
+                android:layout_marginStart="73dp"
+                android:layout_marginEnd="47dp"
+                android:src="@drawable/logo"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/Name"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <LinearLayout
+                android:layout_width="405dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="36dp"
+                android:orientation="horizontal"
+                android:weightSum="100"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/logo">
+
+
+                <com.google.android.material.button.MaterialButton
+                    style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="45dp"
+                    android:layout_weight="30"
+                    android:checkable="true"
+                    android:text="Day"
+                    android:textAllCaps="false"
+                    android:textColor="@color/White"
+                    android:textSize="12sp"
+                    app:cornerRadius="16dp"
+                    app:strokeColor="@color/White"
+                    tools:ignore="TouchTargetSizeCheck" />
+
+                <com.google.android.material.button.MaterialButton
+                    style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginEnd="20dp"
+                    android:layout_weight="35"
+                    android:text="Month"
+                    android:textAllCaps="false"
+                    android:textColor="@color/White"
+                    android:textSize="12sp"
+                    app:cornerRadius="16dp"
+                    app:strokeColor="@color/White"
+                    tools:ignore="TouchTargetSizeCheck" />
+
+                <com.google.android.material.button.MaterialButton
+                    style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginEnd="45dp"
+                    android:layout_weight="30"
+                    android:text="Year"
+                    android:textAllCaps="false"
+                    android:textColor="@color/White"
+                    android:textSize="12sp"
+                    app:cornerRadius="16dp"
+                    app:strokeColor="@color/White"
+                    tools:ignore="TouchTargetSizeCheck" />
+
+
+
+            </LinearLayout>
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+    </ScrollView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

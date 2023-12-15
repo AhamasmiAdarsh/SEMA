@@ -10,42 +10,6 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:text="Search Fragment" />
-    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:orientation="vertical">
-
-        <!-- Real-time energy consumption display -->
-        <TextView
-            android:id="@+id/energyUsageTextView"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Real-time Energy Usage (kWh)"
-            android:textSize="24sp"
-            android:gravity="center"
-            android:padding="16dp"/>
-
-        <!-- Real-time energy consumption visualization (e.g., a graph) -->
-        <ImageView
-            android:id="@+id/energyUsageGraph"
-            android:layout_width="match_parent"
-            android:layout_height="200dp"
-            android:src="@drawable/energy_graph_placeholder"
-            android:scaleType="fitCenter"
-            android:contentDescription="Energy Consumption Graph"/>
-
-        <!-- Historical data chart (e.g., a line chart) -->
-        <com.github.mikephil.charting.charts.LineChart
-            android:id="@+id/historicalDataChart"
-            android:layout_width="match_parent"
-            android:layout_height="200dp"
-            android:layout_marginTop="16dp"
-            android:layout_marginStart="16dp"
-            android:layout_marginEnd="16dp"/>
-
-        <!-- Add any additional UI elements or widgets as needed -->
-
-    </LinearLayout>
 
 
 </FrameLayout>

@@ -4,16 +4,16 @@
         drawable="@drawable/home"
         text="@string/home"/>
  <tab
-        drawable="@drawable/search"
-        text="@string/search" />
+        drawable="@drawable/usage"
+        text="@string/usage" />
  <tab
-        drawable="@drawable/plus"
+        drawable="@drawable/pluss"
         text="@string/add" />
  <tab
         drawable="@drawable/users_alt"
         text="@string/com" />
 <tab
         drawable="@drawable/user"
-        text="@string/user" />
+        text="@string/profile" />
 
 </Tabs>
