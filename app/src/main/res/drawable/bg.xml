@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <selector xmlns:android="http://schemas.android.com/apk/res/android">
 
-        <shape>
-            <solid android:color="@android:color/transparent" /> <!-- Transparent background by default -->
-            <stroke
-                android:width="20dp"
-                android:color="#FFFFFF" /> <!-- White border by default -->
-            <corners android:radius="30dp" />
-        </shape>
+        <item>
+            <shape android:layout_width="wrap_content" android:shape="rectangle">
+                <corners android:radius="20dp" />
+                <solid android:color="#4E5763" />
 
+
+            </shape>
+        </item>
 
 </selector>
 
