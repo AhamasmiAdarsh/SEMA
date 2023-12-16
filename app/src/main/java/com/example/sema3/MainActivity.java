@@ -5,27 +5,17 @@ import android.os.Bundle;
 import com.example.sema3.Fragment.AddFragment;
 import com.example.sema3.Fragment.CommunityFragment;
 import com.example.sema3.Fragment.HomeFragment;
-import com.example.sema3.Fragment.SearchFragment;
+import com.example.sema3.Fragment.UsageFragment;
 import com.example.sema3.Fragment.UserFragment;
-import com.google.android.material.snackbar.Snackbar;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import android.view.View;
-
-import androidx.core.view.WindowCompat;
-import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentTransaction;
-import androidx.navigation.NavController;
-import androidx.navigation.Navigation;
 import androidx.navigation.ui.AppBarConfiguration;
-import androidx.navigation.ui.NavigationUI;
 
 import com.example.sema3.databinding.ActivityMainBinding;
 import com.iammert.library.readablebottombar.ReadableBottomBar;
 
-import android.view.Menu;
-import android.view.MenuItem;
 import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
@@ -58,7 +48,7 @@ public class MainActivity extends AppCompatActivity {
                         Toast.makeText(MainActivity.this, "Home Selected", Toast.LENGTH_SHORT).show();
                         break;
                     case 1 :
-                        transaction.replace(R.id.container, new SearchFragment());
+                        transaction.replace(R.id.container, new UsageFragment());
                         Toast.makeText(MainActivity.this, "Search Selected", Toast.LENGTH_SHORT).show();
                         break;
                     case 2 :
