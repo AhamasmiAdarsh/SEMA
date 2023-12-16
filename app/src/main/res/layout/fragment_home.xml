@@ -89,7 +89,7 @@
 
         <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="match_parent"
-            android:layout_height="700dp"
+            android:layout_height="wrap_content"
             android:paddingTop="10dp">
 
             <TextView
@@ -209,12 +209,14 @@
             </LinearLayout>
 
             <LinearLayout
+                android:id="@+id/homefront"
                 android:layout_width="360dp"
                 android:layout_height="580dp"
                 android:layout_marginTop="10dp"
                 android:layout_weight="30"
                 android:alpha="1"
                 android:background="@drawable/bg"
+                app:layout_constraintBottom_toTopOf="@id/cadv"
                 android:orientation="vertical"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
@@ -487,6 +489,259 @@
                     </LinearLayout>
                 </LinearLayout>
             </LinearLayout>
+
+
+            <LinearLayout
+                android:id="@+id/cadv"
+                android:layout_marginTop="40dp"
+                android:layout_width="match_parent"
+
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/homefront">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/kumbh_sans"
+                    android:layout_marginStart="20dp"
+                    android:text="Critically Active Devices"
+                    android:textColor="@color/White"
+                    android:textSize="30dp">
+                </TextView>
+
+                <LinearLayout
+                    android:layout_marginTop="20dp"
+                    android:layout_marginStart="40dp"
+                    android:layout_width="340dp"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/bg3"
+                    android:orientation="horizontal">
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="15dp"
+                            android:layout_marginTop="7dp"
+                            android:fontFamily="@font/josefin_sans_light"
+                            android:text="Children's Air Conditioner"
+                            android:textColor="@color/White"
+                            android:textSize="15dp"
+                            tools:ignore="TextSizeCheck"></TextView>
+                        <LinearLayout
+                            android:layout_marginTop="1dp"
+                            android:layout_marginStart="25dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:fontFamily="@font/hind"
+                                android:text="15 "
+                                android:textColor="@color/IndianRed"
+                                android:textSize="22dp"></TextView>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:fontFamily="@font/hind"
+                                android:text="W Today"
+                                android:textColor="@color/White"
+                                android:textSize="15dp"
+                                tools:ignore="TextSizeCheck"></TextView>
+
+                        </LinearLayout>
+                    </LinearLayout>
+                    <ImageView
+                        android:layout_marginStart="100dp"
+                        android:layout_width="50dp"
+                        android:layout_height="35dp"
+                        android:layout_gravity="center"
+                        android:src="@drawable/right_arrow"></ImageView>
+
+                </LinearLayout><LinearLayout
+                    android:layout_marginTop="20dp"
+                    android:layout_marginStart="40dp"
+                    android:layout_width="340dp"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/bg3"
+                    android:orientation="horizontal">
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="15dp"
+                            android:layout_marginTop="7dp"
+                            android:fontFamily="@font/josefin_sans_light"
+                            android:text="Children's Air Conditioner"
+                            android:textColor="@color/White"
+                            android:textSize="15dp"
+                            tools:ignore="TextSizeCheck"></TextView>
+                        <LinearLayout
+                            android:layout_marginTop="1dp"
+                            android:layout_marginStart="25dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:fontFamily="@font/hind"
+                                android:text="15 "
+                                android:textColor="@color/IndianRed"
+                                android:textSize="22dp"></TextView>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:fontFamily="@font/hind"
+                                android:text="W Today"
+                                android:textColor="@color/White"
+                                android:textSize="15dp"
+                                tools:ignore="TextSizeCheck"></TextView>
+
+                        </LinearLayout>
+                    </LinearLayout>
+                    <ImageView
+                        android:layout_marginStart="100dp"
+                        android:layout_width="50dp"
+                        android:layout_height="35dp"
+                        android:layout_gravity="center"
+                        android:src="@drawable/right_arrow"></ImageView>
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_marginTop="20dp"
+                    android:layout_marginStart="40dp"
+                    android:layout_width="340dp"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/bg3"
+                    android:orientation="horizontal">
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="15dp"
+                            android:layout_marginTop="7dp"
+                            android:fontFamily="@font/josefin_sans_light"
+                            android:text="Children's Air Conditioner"
+                            android:textColor="@color/White"
+                            android:textSize="15dp"
+                            tools:ignore="TextSizeCheck"></TextView>
+                        <LinearLayout
+                            android:layout_marginTop="1dp"
+                            android:layout_marginStart="25dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:fontFamily="@font/hind"
+                                android:text="15 "
+                                android:textColor="@color/IndianRed"
+                                android:textSize="22dp"></TextView>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:fontFamily="@font/hind"
+                                android:text="W Today"
+                                android:textColor="@color/White"
+                                android:textSize="15dp"></TextView>
+
+                        </LinearLayout>
+                    </LinearLayout>
+                    <ImageView
+                        android:layout_marginStart="100dp"
+                        android:layout_width="50dp"
+                        android:layout_height="35dp"
+                        android:layout_gravity="center"
+                        android:src="@drawable/right_arrow"></ImageView>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+         <LinearLayout
+             android:layout_marginTop="40dp"
+             android:layout_width="match_parent"
+             app:layout_constraintTop_toBottomOf="@id/cadv"
+             android:id="@+id/cgl"
+             android:layout_height="wrap_content"
+             android:orientation="vertical"
+             app:layout_constraintEnd_toEndOf="parent"
+             app:layout_constraintStart_toStartOf="parent">
+             <TextView
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:fontFamily="@font/kumbh_sans"
+                 android:layout_marginStart="20dp"
+                 android:text="Consumption Goal"
+                 android:textColor="@color/White"
+                 android:textSize="30dp">
+             </TextView>
+             
+             <LinearLayout
+                 android:layout_width="370dp"
+                 android:layout_height="wrap_content"
+                 android:layout_marginStart="12dp"
+                 android:layout_marginTop="20dp"
+                 android:orientation="vertical"
+                 android:background="@drawable/bg3">
+
+                 <TextView
+                     android:layout_width="wrap_content"
+                     android:layout_height="25dp"
+
+                     android:layout_marginStart="220dp"
+                     android:layout_marginTop="7dp"
+                     android:alpha="0.8"
+                     android:fontFamily="@font/josefin_sans_light"
+                     android:text="Set Another Goal"
+
+                     android:textColor="@color/White"
+                     android:textSize="15dp"
+                     tools:ignore="TextSizeCheck"></TextView>
+
+
+
+                 <ProgressBar
+                     android:id="@+id/progressBar"
+                     android:layout_marginStart="40dp"
+                     style="?android:attr/progressBarStyleHorizontal"
+                     android:layout_width="280dp"
+                     android:layout_height="15dp"
+                     android:layout_weight="1"
+                     android:progress="62"
+                     android:progressDrawable="@drawable/bg2"
+                     android:max="100" />
+
+
+             </LinearLayout>
+
+
+         </LinearLayout>
+            
+
+
 
 
 

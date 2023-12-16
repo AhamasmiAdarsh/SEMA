@@ -4,9 +4,13 @@
         <item>@font/amaranth</item>
         <item>@font/amiko_bold</item>
         <item>@font/doppio_one</item>
+        <item>@font/hind</item>
         <item>@font/itim</item>
         <item>@font/jaldi</item>
+        <item>@font/josefin_sans_light</item>
         <item>@font/jost</item>
         <item>@font/jost_thin</item>
+        <item>@font/kumbh_sans</item>
+        <item>@font/kumbh_sans_bold</item>
     </array>
 </resources>
