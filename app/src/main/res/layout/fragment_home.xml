@@ -10,6 +10,15 @@
     tools:context=".Fragment.HomeFragment">
 
 
+
+
+
+
+
+
+
+
+
     <androidx.constraintlayout.widget.ConstraintLayout
 
         android:id="@+id/header"
@@ -54,6 +63,16 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintVertical_bias="0.0" />
+
+
+
+
+
+
+
+
+
+
 
         <ImageView
             android:id="@+id/sema"
@@ -147,6 +166,11 @@
                 android:src="@drawable/logo"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toEndOf="@+id/Name"
+
+
+
+
+
                 app:layout_constraintTop_toTopOf="parent" />
 
             <LinearLayout
@@ -175,6 +199,17 @@
                     app:cornerRadius="16dp"
                     app:strokeColor="@color/White"
                     tools:ignore="TouchTargetSizeCheck" />
+
+
+
+
+
+
+
+
+
+
+
 
                 <com.google.android.material.button.MaterialButton
                     style="@style/Widget.MaterialComponents.Button.OutlinedButton"
@@ -239,6 +274,13 @@
                      android:layout_width="wrap_content"
                      android:layout_height="wrap_content"
                      android:orientation="vertical">
+
+
+
+
+
+
+
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -424,6 +466,18 @@
                             </LinearLayout>
 
 
+
+
+
+
+
+
+
+
+
+
+
+
                             <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
@@ -540,6 +594,11 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:orientation="horizontal">
+
+
+
+
+
 
                             <TextView
                                 android:layout_width="wrap_content"
@@ -680,6 +739,13 @@
 
             </LinearLayout>
 
+
+
+
+
+
+
+
          <LinearLayout
              android:layout_marginTop="40dp"
              android:layout_width="match_parent"
@@ -763,6 +829,13 @@
                          android:textColor="@color/White"
                          android:alpha="0.7"
                          android:fontFamily="@font/amiko_bold"></TextView>
+
+
+
+
+
+
+
 
                  </LinearLayout>
                  <TextView
@@ -873,8 +946,33 @@
                          android:alpha="0.7"
                          android:fontFamily="@font/amiko_bold"></TextView>
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
                  </LinearLayout>
                  <TextView
+                     android:id="@+id/seeklowbudget"
                      android:layout_marginTop="5dp"
                      android:layout_width="match_parent"
                      android:layout_height="wrap_content"
@@ -883,32 +981,23 @@
                      android:textSize="35dp"
                      android:fontFamily="@font/doppio_one"
                      android:gravity="center"></TextView>
+
                  <TextView
-                     android:layout_marginTop="10dp"
+                     android:id="@+id/seekhighbudget"
                      android:layout_width="match_parent"
                      android:layout_height="wrap_content"
+                     android:layout_marginTop="10dp"
+                     android:fontFamily="@font/itim"
+                     android:gravity="center"
                      android:text="Awesome! Your spend is on Track"
                      android:textColor="@color/White"
-                     android:textSize="20dp"
-                     android:fontFamily="@font/itim"
-                     android:gravity="center"></TextView>
+                     android:textSize="20dp"></TextView>
 
 
              </LinearLayout>
 
-
          </LinearLayout>
 
-
-
-
-
-
-
         </androidx.constraintlayout.widget.ConstraintLayout>
-
-
     </ScrollView>
-
-
 </androidx.constraintlayout.widget.ConstraintLayout>
