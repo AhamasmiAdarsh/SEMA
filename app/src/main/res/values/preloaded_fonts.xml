@@ -2,6 +2,8 @@
 <resources>
     <array name="preloaded_fonts" translatable="false">
         <item>@font/amaranth</item>
+        <item>@font/amiko_bold</item>
+        <item>@font/doppio_one</item>
         <item>@font/itim</item>
         <item>@font/jaldi</item>
         <item>@font/jost</item>
