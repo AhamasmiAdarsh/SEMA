@@ -713,8 +713,8 @@
 
                      android:layout_marginStart="220dp"
                      android:layout_marginTop="7dp"
-                     android:alpha="0.8"
-                     android:fontFamily="@font/josefin_sans_light"
+                     android:alpha="0.6"
+                     android:fontFamily="@font/josefin_sans"
                      android:text="Set Another Goal"
 
                      android:textColor="@color/White"
@@ -724,22 +724,181 @@
 
 
                  <ProgressBar
+                     android:layout_marginTop="10dp"
                      android:id="@+id/progressBar"
                      android:layout_marginStart="40dp"
                      style="?android:attr/progressBarStyleHorizontal"
                      android:layout_width="280dp"
+                     android:alpha="0.7"
                      android:layout_height="15dp"
                      android:layout_weight="1"
-                     android:progress="62"
-                     android:progressDrawable="@drawable/bg2"
+                     android:progress="50"
+                     android:progressDrawable="@drawable/bg4"
                      android:max="100" />
+
+                 <LinearLayout
+                     android:layout_marginTop="10dp"
+                     android:layout_width="match_parent"
+                     android:layout_height="wrap_content"
+                     android:weightSum="100"
+                     android:orientation="horizontal">
+                     <TextView
+                         android:layout_marginStart="20dp"
+                         android:layout_width="wrap_content"
+                         android:layout_height="wrap_content"
+                         android:text="0 kWh"
+                         android:textSize="15dp"
+                         android:layout_weight="20"
+                         android:textColor="@color/White"
+                         android:alpha="0.7"
+                         android:fontFamily="@font/amiko_bold"></TextView>
+
+                     <TextView
+                         android:layout_marginStart="200dp"
+                         android:layout_width="wrap_content"
+                         android:layout_height="wrap_content"
+                         android:text="1200 kWh"
+                         android:textSize="15dp"
+                         android:layout_weight="20"
+                         android:textColor="@color/White"
+                         android:alpha="0.7"
+                         android:fontFamily="@font/amiko_bold"></TextView>
+
+                 </LinearLayout>
+                 <TextView
+                     android:layout_marginTop="5dp"
+                     android:layout_width="match_parent"
+                     android:layout_height="wrap_content"
+                     android:text="960.3 kWh"
+                     android:textColor="@color/White"
+                     android:textSize="35dp"
+                     android:fontFamily="@font/doppio_one"
+                     android:gravity="center"></TextView>
+                 <TextView
+                     android:layout_marginTop="10dp"
+                     android:layout_width="match_parent"
+                     android:layout_height="wrap_content"
+                     android:text="Awesome! Your spend is on Track"
+                     android:textColor="@color/White"
+                     android:textSize="20dp"
+                     android:fontFamily="@font/itim"
+                     android:gravity="center"></TextView>
 
 
              </LinearLayout>
 
 
          </LinearLayout>
-            
+            <LinearLayout
+             android:layout_marginTop="40dp"
+             android:layout_width="match_parent"
+             app:layout_constraintTop_toBottomOf="@id/cgl"
+             android:id="@+id/bgl"
+             android:layout_height="wrap_content"
+             android:orientation="vertical"
+             app:layout_constraintEnd_toEndOf="parent"
+             app:layout_constraintStart_toStartOf="parent">
+             <TextView
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:fontFamily="@font/kumbh_sans"
+                 android:layout_marginStart="20dp"
+                 android:text="Budget Goal"
+                 android:textColor="@color/White"
+                 android:textSize="30dp">
+             </TextView>
+
+             <LinearLayout
+                 android:layout_width="370dp"
+                 android:layout_height="wrap_content"
+                 android:layout_marginStart="12dp"
+                 android:layout_marginTop="20dp"
+                 android:orientation="vertical"
+                 android:background="@drawable/bg3">
+
+                 <TextView
+                     android:layout_width="wrap_content"
+                     android:layout_height="25dp"
+
+                     android:layout_marginStart="220dp"
+                     android:layout_marginTop="7dp"
+                     android:alpha="0.6"
+                     android:fontFamily="@font/josefin_sans"
+                     android:text="Set Another Goal"
+
+                     android:textColor="@color/White"
+                     android:textSize="15dp"
+                     tools:ignore="TextSizeCheck"></TextView>
+
+
+
+                 <ProgressBar
+                     android:layout_marginTop="10dp"
+                     android:id="@+id/progressBar2"
+                     android:layout_marginStart="40dp"
+                     style="?android:attr/progressBarStyleHorizontal"
+                     android:layout_width="280dp"
+                     android:alpha="0.7"
+                     android:layout_height="15dp"
+                     android:layout_weight="1"
+                     android:progress="50"
+                     android:progressDrawable="@drawable/bg4"
+                     android:max="100" />
+
+                 <LinearLayout
+                     android:layout_marginTop="10dp"
+                     android:layout_width="match_parent"
+                     android:layout_height="wrap_content"
+                     android:weightSum="100"
+                     android:orientation="horizontal">
+                     <TextView
+                         android:layout_marginStart="20dp"
+                         android:layout_width="wrap_content"
+                         android:layout_height="wrap_content"
+                         android:text="Rs. 0"
+                         android:textSize="15dp"
+                         android:layout_weight="20"
+                         android:textColor="@color/White"
+                         android:alpha="0.7"
+                         android:fontFamily="@font/amiko_bold"></TextView>
+
+                     <TextView
+                         android:layout_marginStart="200dp"
+                         android:layout_width="wrap_content"
+                         android:layout_height="wrap_content"
+                         android:text="Rs. 12k"
+                         android:textSize="15dp"
+                         android:layout_weight="20"
+                         android:textColor="@color/White"
+                         android:alpha="0.7"
+                         android:fontFamily="@font/amiko_bold"></TextView>
+
+                 </LinearLayout>
+                 <TextView
+                     android:layout_marginTop="5dp"
+                     android:layout_width="match_parent"
+                     android:layout_height="wrap_content"
+                     android:text="Rs. 9k"
+                     android:textColor="@color/White"
+                     android:textSize="35dp"
+                     android:fontFamily="@font/doppio_one"
+                     android:gravity="center"></TextView>
+                 <TextView
+                     android:layout_marginTop="10dp"
+                     android:layout_width="match_parent"
+                     android:layout_height="wrap_content"
+                     android:text="Awesome! Your spend is on Track"
+                     android:textColor="@color/White"
+                     android:textSize="20dp"
+                     android:fontFamily="@font/itim"
+                     android:gravity="center"></TextView>
+
+
+             </LinearLayout>
+
+
+         </LinearLayout>
+
 
 
 

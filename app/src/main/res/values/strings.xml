@@ -12,6 +12,7 @@
     <string name="com">Community</string>
     <string name="profile">Profile</string>
     <string name="usage">Usage</string>
+    <string name="Rs">\u20B9</string>
 
     <string name="lorem_ipsum">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam in scelerisque sem. Mauris
