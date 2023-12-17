@@ -61,9 +61,6 @@
 
 
 
-
-
-
         <ImageView
             android:id="@+id/sema"
             android:layout_width="124dp"
