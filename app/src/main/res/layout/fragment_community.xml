@@ -171,7 +171,7 @@
                 android:layout_marginTop="15dp"
                 android:background="@drawable/round"
                 android:iconifiedByDefault="false"
-                android:queryHint="Search for your neighbours..." />
+                android:queryHint="Search for your neighbours..." ></SearchView>
             
             <LinearLayout
                 android:layout_marginTop="15dp"
