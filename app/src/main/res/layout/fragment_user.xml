@@ -57,7 +57,11 @@
             app:layout_constraintVertical_bias="1.0" />
     </androidx.constraintlayout.widget.ConstraintLayout>
 
+
+
         <ScrollView
+
+
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
 
@@ -76,12 +80,40 @@
 
             android:orientation="vertical">
 
-            <androidx.constraintlayout.widget.ConstraintLayout
-                android:layout_width="match_parent"
-                android:layout_height="match_parent">
+            <LinearLayout
+                android:layout_width="394dp"
+                android:layout_height="184dp"
+                android:layout_marginLeft="9dp"
+                android:layout_marginTop="70dp"
+                android:layout_marginRight="2dp"
+                android:layout_marginBottom="20dp"
+                android:background="@drawable/bg3"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/imageView3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="38dp"
+
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.0"
+                    app:srcCompat="@drawable/prof" />
+
+                <ImageView
+
+                    android:layout_width="60dp"
+                    android:layout_height="46dp"
+                    app:layout_constraintEnd_toStartOf="@+id/textView23"
+                    app:layout_constraintHorizontal_bias="0.0"
+                    app:layout_constraintStart_toStartOf="@+id/textView88"
+                    app:srcCompat="@drawable/star"
+                    tools:layout_editor_absoluteY="176dp" />
 
 
-            </androidx.constraintlayout.widget.ConstraintLayout>
+            </LinearLayout>
 
             <Button
 
@@ -138,7 +170,7 @@
                 android:layout_marginStart="8dp"
                 android:layout_marginTop="1dp"
                 android:layout_marginEnd="8dp"
-                android:layout_marginBottom="8dp"
+                android:layout_marginBottom="3dp"
                 android:layout_weight="1"
                 android:orientation="vertical"
 
@@ -173,8 +205,6 @@
                 app:autoSizeTextType="uniform" />
 
 
-
-
             <Button
                 android:layout_width="match_parent"
                 android:layout_height="48dp"
@@ -182,7 +212,7 @@
                 android:layout_marginStart="8dp"
                 android:layout_marginTop="1dp"
                 android:layout_marginEnd="8dp"
-                android:layout_marginBottom="8dp"
+                android:layout_marginBottom="3dp"
                 android:layout_weight="0.333"
                 android:text="abx"
                 android:textAlignment="viewStart"
@@ -222,60 +252,60 @@
                 android:layout_height="48dp"
                 android:layout_gravity="center|start"
                 android:layout_marginStart="8dp"
-                android:layout_marginEnd="8dp"
                 android:layout_marginTop="1dp"
-                android:layout_marginBottom="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginBottom="3dp"
                 android:layout_weight="0.333"
                 android:text="dd"
                 android:textAlignment="viewStart"
                 android:textColor="#FFFFFF"
                 android:textSize="15sp"
-                android:textStyle="normal"/>
-            
+                android:textStyle="normal" />
+
             <Button
                 android:layout_width="match_parent"
                 android:layout_height="48dp"
                 android:layout_gravity="center|start"
                 android:layout_marginStart="8dp"
-                android:layout_marginEnd="8dp"
-                android:layout_marginBottom="8dp"
                 android:layout_marginTop="1dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginBottom="3dp"
                 android:layout_weight="0.333"
                 android:text="dd"
                 android:textAlignment="viewStart"
                 android:textColor="#FFFFFF"
-                android:textStyle="normal"
-                android:textSize="15sp"/>
+                android:textSize="15sp"
+                android:textStyle="normal" />
 
             <Button
                 android:layout_width="match_parent"
                 android:layout_height="48dp"
                 android:layout_gravity="start|center"
                 android:layout_marginStart="8dp"
-                android:layout_marginEnd="8dp"
-                android:layout_marginBottom="8dp"
                 android:layout_marginTop="1dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginBottom="3dp"
                 android:layout_weight="0.333"
                 android:text="ddd"
                 android:textAlignment="viewStart"
                 android:textColor="#FFFFFF"
-                android:textStyle="normal"
-                android:textSize="15sp"/>
+                android:textSize="15sp"
+                android:textStyle="normal" />
 
             <Button
                 android:layout_width="match_parent"
                 android:layout_height="48dp"
                 android:layout_gravity="center|start"
                 android:layout_marginStart="8dp"
-                android:layout_marginEnd="8dp"
                 android:layout_marginTop="1dp"
-                android:layout_marginBottom="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginBottom="3dp"
                 android:layout_weight="0.333"
                 android:text="ddd"
                 android:textAlignment="viewStart"
                 android:textColor="#FFFFFF"
-                android:textStyle="normal"
-                android:textSize="15sp"/>
+                android:textSize="15sp"
+                android:textStyle="normal" />
 
             <Button
                 android:layout_width="match_parent"
@@ -283,14 +313,14 @@
                 android:layout_gravity="start|start"
                 android:layout_marginStart="8dp"
                 android:layout_marginTop="1dp"
-                android:layout_marginBottom="8dp"
                 android:layout_marginEnd="8dp"
+                android:layout_marginBottom="3dp"
                 android:layout_weight="0.333"
                 android:text="sss"
                 android:textAlignment="viewStart"
                 android:textColor="#FFFFFF"
-                android:textStyle="normal"
-                android:textSize="15sp"/>
+                android:textSize="15sp"
+                android:textStyle="normal" />
 
             <TextView
                 android:id="@+id/textView101"
@@ -310,14 +340,14 @@
                 android:layout_gravity="center|start"
                 android:layout_marginStart="8dp"
                 android:layout_marginTop="1dp"
-                android:layout_marginBottom="8dp"
                 android:layout_marginEnd="8dp"
+                android:layout_marginBottom="3dp"
                 android:layout_weight="0.333"
                 android:text="ddd"
                 android:textAlignment="viewStart"
                 android:textColor="#FFFFFF"
-                android:textStyle="normal"
-                android:textSize="15sp"/>
+                android:textSize="15sp"
+                android:textStyle="normal" />
 
             <Button
                 android:layout_width="match_parent"
@@ -325,14 +355,14 @@
                 android:layout_gravity="center|start"
                 android:layout_marginStart="8dp"
                 android:layout_marginTop="1dp"
-                android:layout_marginBottom="8dp"
                 android:layout_marginEnd="8dp"
+                android:layout_marginBottom="3dp"
                 android:layout_weight="0.333"
                 android:text="sss"
                 android:textAlignment="viewStart"
                 android:textColor="#FFFFFF"
                 android:textSize="15sp"
-                android:textStyle="normal"/>
+                android:textStyle="normal" />
 
             <Button
                 android:layout_width="match_parent"
@@ -340,14 +370,14 @@
                 android:layout_gravity="start|center"
                 android:layout_marginStart="8dp"
                 android:layout_marginTop="1dp"
-                android:layout_marginBottom="8dp"
                 android:layout_marginEnd="8dp"
+                android:layout_marginBottom="3dp"
                 android:layout_weight="0.333"
                 android:text="ss"
                 android:textAlignment="viewStart"
                 android:textColor="#FFFFFF"
                 android:textSize="15sp"
-                android:textStyle="normal"/>
+                android:textStyle="normal" />
 
             <Button
                 android:layout_width="match_parent"
@@ -356,13 +386,13 @@
                 android:layout_marginStart="8dp"
                 android:layout_marginTop="1dp"
                 android:layout_marginEnd="8dp"
-                android:layout_marginBottom="8dp"
+                android:layout_marginBottom="3dp"
                 android:layout_weight="0.333"
-                android:textAlignment="viewStart"
                 android:text="eww"
+                android:textAlignment="viewStart"
                 android:textColor="#FFFFFF"
                 android:textSize="15sp"
-                android:textStyle="normal"/>
+                android:textStyle="normal" />
 
             <Button
                 android:layout_width="match_parent"
