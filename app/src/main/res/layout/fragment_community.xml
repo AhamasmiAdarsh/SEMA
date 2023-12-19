@@ -73,6 +73,7 @@
             android:orientation="vertical">
 
             <TextView
+                android:id="@+id/your_id"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginEnd="5dp"
@@ -83,6 +84,7 @@
                 android:textSize="28dp"></TextView>
 
             <TextView
+                android:id="@+id/community_id"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginEnd="5dp"
@@ -104,6 +106,7 @@
                     android:layout_height="wrap_content"
                     android:orientation="vertical">
                 <TextView
+                    android:id="@+id/adarsh_tiwari"
                     android:layout_marginTop="15dp"
                     android:layout_marginStart="15dp"
                     android:layout_width="wrap_content"
@@ -118,6 +121,7 @@
                         android:orientation="horizontal">
 
                         <TextView
+                            android:id="@+id/Rank_id"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginStart="20dp"
@@ -129,12 +133,14 @@
                             android:textColor="@color/White"
                             android:textSize="27dp"></TextView>
                         <ImageView
+                            android:id="@+id/upsign_image"
                             android:layout_marginBottom="1dp"
                             android:layout_gravity="center"
                             android:layout_width="30dp"
                             android:layout_height="50dp"
                             android:src="@drawable/up"></ImageView>
                         <TextView
+                            android:id="@+id/rankup_02"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:text="02"
@@ -153,6 +159,7 @@
                     app:cardCornerRadius="70dp"> <!-- Additional padding for shadow -->
 
                 <ImageView
+                    android:layout_gravity="bottom"
                     android:id="@+id/myImageView"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
@@ -181,6 +188,7 @@
                 android:background="@drawable/bg5"
                 android:orientation="vertical">
                 <TextView
+                    android:id="@+id/leaderboard_id"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Leaderboard"
@@ -191,6 +199,7 @@
                     android:layout_marginTop="2dp"
                     android:layout_marginStart="15dp"></TextView>
                 <TextView
+                    android:id="@+id/leaderboard_text2"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="See where you stand in your community..."
@@ -206,6 +215,7 @@
                 android:orientation="vertical">
                 
                 <TextView
+                    android:id="@+id/name_png"
                     android:layout_marginTop="5dp"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -217,6 +227,7 @@
                     android:fontFamily="@font/inder"></TextView>
 
  <TextView
+     android:id="@+id/name_ankit"
                     android:layout_marginTop="5dp"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -232,6 +243,7 @@
     android:layout_width="wrap_content"
     android:layout_height="wrap_content">
  <TextView
+     android:id="@+id/name_adarsh"
 
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -242,6 +254,7 @@
                     android:layout_gravity="center"
                     android:fontFamily="@font/inder"></TextView>
     <TextView
+        android:id="@+id/name_adarsh_you"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text=" (You)"
@@ -253,6 +266,7 @@
 </LinearLayout>
 
  <TextView
+     android:id="@+id/name_shivam"
                     android:layout_marginTop="5dp"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -264,6 +278,7 @@
                     android:fontFamily="@font/inder"></TextView>
 
  <TextView
+     android:id="@+id/name_aman"
                     android:layout_marginTop="5dp"
                     android:layout_marginBottom="5dp"
                     android:layout_width="wrap_content"
@@ -292,6 +307,7 @@
                     android:layout_height="wrap_content"
                     android:orientation="vertical">
                     <TextView
+                        android:id="@+id/shop_id"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="Shop"
@@ -300,6 +316,7 @@
                         android:textSize="27dp"></TextView>
 
                     <TextView
+                        android:id="@+id/shop_text2"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="Shop for Sustainable Appliances..."
@@ -310,6 +327,7 @@
                 </LinearLayout>
 
                 <ImageView
+                    android:id="@+id/shop_image"
                     android:layout_width="50dp"
                     android:layout_marginStart="25dp"
                     android:layout_height="50dp"
@@ -326,6 +344,7 @@
                 android:orientation="horizontal">
 
                 <TextView
+                    android:id="@+id/blog_id"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Blogs"
@@ -335,6 +354,7 @@
                     android:fontFamily="@font/kumbh_sans"></TextView>
 
                 <ImageView
+                    android:id="@+id/blogs_image"
                     android:layout_gravity="center"
                     android:layout_width="40dp"
                     android:layout_height="40dp"
@@ -350,6 +370,7 @@
                 android:alpha="0.5"
                 />
             <TextView
+                android:id="@+id/blogs_readmore"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Read more >>"
@@ -380,6 +401,7 @@
                             android:layout_height="wrap_content"
                             android:orientation="horizontal">
                             <TextView
+                                android:id="@+id/blogs_aman"
                                 android:layout_marginTop="10dp"
                                 android:layout_marginStart="10dp"
                                 android:layout_width="wrap_content"
@@ -390,6 +412,7 @@
                                 android:fontFamily="@font/inder"
                                 android:textSize="22dp"></TextView>
                             <ImageView
+                                android:id="@+id/blogs_profile_image"
                                 android:layout_marginTop="2dp"
                                 android:layout_marginStart="7dp"
                                 android:layout_width="40dp"
@@ -398,6 +421,7 @@
                                 android:src="@drawable/profim"></ImageView>
                         </LinearLayout>
                         <TextView
+                            android:id="@+id/blogs_text2"
                             android:layout_marginTop="20dp"
                             android:layout_marginStart="10dp"
                             android:layout_width="200dp"
@@ -409,6 +433,7 @@
                             android:alpha="0.87">
                         </TextView>
                         <TextView
+                            android:id="@+id/blogs_text3"
                             android:layout_marginStart="15dp"
                             android:layout_marginTop="17dp"
                             android:layout_width="wrap_content"
@@ -436,6 +461,7 @@
                             android:layout_height="wrap_content"
                             android:orientation="horizontal">
                             <TextView
+                                android:id="@+id/blogs_aman_page2"
                                 android:layout_marginTop="10dp"
                                 android:layout_marginStart="10dp"
                                 android:layout_width="wrap_content"
@@ -446,6 +472,7 @@
                                 android:fontFamily="@font/inder"
                                 android:textSize="22dp"></TextView>
                             <ImageView
+                                android:id="@+id/blogs_profile2"
                                 android:layout_marginTop="2dp"
                                 android:layout_marginStart="7dp"
                                 android:layout_width="40dp"
@@ -454,6 +481,7 @@
                                 android:src="@drawable/profim"></ImageView>
                         </LinearLayout>
                         <TextView
+                            android:id="@+id/blogs_text2_page2"
                             android:layout_marginTop="20dp"
                             android:layout_marginStart="10dp"
                             android:layout_width="200dp"
@@ -465,6 +493,7 @@
                             android:alpha="0.87">
                         </TextView>
                         <TextView
+                            android:id="@+id/blogs_text3_page2"
                             android:layout_marginStart="15dp"
                             android:layout_marginTop="17dp"
                             android:layout_width="wrap_content"
@@ -492,6 +521,7 @@
                             android:layout_height="wrap_content"
                             android:orientation="horizontal">
                             <TextView
+                                android:id="@+id/blogs_aman_page3"
                                 android:layout_marginTop="10dp"
                                 android:layout_marginStart="10dp"
                                 android:layout_width="wrap_content"
@@ -502,6 +532,7 @@
                                 android:fontFamily="@font/inder"
                                 android:textSize="22dp"></TextView>
                             <ImageView
+                                android:id="@+id/blogs_profile3"
                                 android:layout_marginTop="2dp"
                                 android:layout_marginStart="7dp"
                                 android:layout_width="40dp"
@@ -510,6 +541,7 @@
                                 android:src="@drawable/profim"></ImageView>
                         </LinearLayout>
                         <TextView
+                            android:id="@+id/blogs_text2_page3"
                             android:layout_marginTop="20dp"
                             android:layout_marginStart="10dp"
                             android:layout_width="200dp"
@@ -521,6 +553,7 @@
                             android:alpha="0.87">
                         </TextView>
                         <TextView
+                            android:id="@+id/blogs_text3_page3"
                             android:layout_marginStart="15dp"
                             android:layout_marginTop="17dp"
                             android:layout_width="wrap_content"
