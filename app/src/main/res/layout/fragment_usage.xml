@@ -188,11 +188,14 @@
                 </LinearLayout>
             </LinearLayout>
 
-            <ImageView
+            <ImageButton
+                android:id="@+id/graph1"
+                android:src="@drawable/graph1"
                 android:layout_margin="20dp"
                 android:layout_width="361dp"
-                android:layout_height="233dp"
-                android:src="@drawable/graph1"></ImageView>
+                android:layout_height="233dp" >
+
+            </ImageButton>
 
             <LinearLayout
                 android:layout_marginStart="20dp"
@@ -313,6 +316,7 @@
         </LinearLayout>
         </LinearLayout>
 <ImageView
+    android:id="@+id/graph2"
                 android:layout_margin="20dp"
                 android:layout_width="361dp"
                 android:layout_height="233dp"
