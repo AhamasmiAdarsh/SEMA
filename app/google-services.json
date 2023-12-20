@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "503561325108",
+    "project_id": "sema3-14434",
+    "storage_bucket": "sema3-14434.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:503561325108:android:9fab4c2fcd7deb01845861",
+        "android_client_info": {
+          "package_name": "com.example.sema3"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAKV12iEm8PSW90dfckV2bMYNrICZFv3vw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
