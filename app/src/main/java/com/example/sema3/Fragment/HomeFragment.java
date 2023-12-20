@@ -16,6 +16,8 @@ import com.example.sema3.R;
 
 public class HomeFragment extends Fragment {
 
+
+
      ImageView image1;
      ImageView image2;
 
@@ -28,7 +30,9 @@ public class HomeFragment extends Fragment {
                              Bundle savedInstanceState) {
         View view = inflater.inflate(R.layout.fragment_home, container, false);
 
+
         // Find the ImageView by ID
+
         image1 = view.findViewById(R.id.image1);
         image2 = view.findViewById(R.id.image2);
 
@@ -46,6 +50,11 @@ public class HomeFragment extends Fragment {
 
 
         return view;
+
+
+
+
+
     }
 
 }
