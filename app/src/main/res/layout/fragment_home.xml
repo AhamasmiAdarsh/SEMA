@@ -166,20 +166,28 @@
                 app:layout_constraintTop_toBottomOf="@id/logo"
                 android:orientation="horizontal">
 
-                <ImageView
+                <ImageButton
                     android:id="@+id/image1"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginEnd="10dp"
                     android:clickable="true"
-                    android:src="@drawable/elec"></ImageView>
+                    android:background="@drawable/transparent"
+                    android:contentDescription="electricity view"
+                    android:focusable="true"
+                    android:src="@drawable/elec"
+                    tools:ignore="TouchTargetSizeCheck"></ImageButton>
 
-                <ImageView
+                <ImageButton
                     android:id="@+id/image2"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:clickable="true"
-                    android:src="@drawable/wa"></ImageView>
+                    android:background="@drawable/transparent"
+                    android:contentDescription="water view"
+                    android:focusable="true"
+                    android:src="@drawable/wa"
+                    tools:ignore="TouchTargetSizeCheck"></ImageButton>
 
 
 
@@ -274,6 +282,7 @@
                 app:layout_constraintVertical_bias="1.0">
 
                 <ImageView
+                    android:id="@+id/graphImage"
                     android:layout_width="342dp"
                     android:layout_height="227dp"
                     android:layout_gravity="center"
@@ -296,6 +305,7 @@
 
 
                 <TextView
+                    android:id="@+id/TotalToday"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:fontFamily="@font/jost"
@@ -311,6 +321,7 @@
                     android:layout_marginStart="20dp"
                     android:orientation="horizontal">
                     <TextView
+                        android:id="@+id/TotalTodayRead"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="22.8"
@@ -319,6 +330,7 @@
                         android:fontFamily="@font/doppio_one"/>
 
                     <TextView
+                        android:id="@+id/TotalTodayReadKWH"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginStart="5dp"
@@ -331,6 +343,7 @@
                 </LinearLayout>
                 </LinearLayout>
                     <ImageView
+                        android:id="@+id/BijliImage"
                         android:layout_marginStart="80dp"
                         android:layout_width="100dp"
                         android:layout_height="90dp"
@@ -360,6 +373,7 @@
                                 android:orientation="horizontal">
 
                                 <TextView
+                                    android:id="@+id/ThisMonthRead"
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
                                     android:layout_marginStart="5dp"
@@ -369,6 +383,7 @@
                                     android:textColor="@color/White"
                                     android:textSize="35dp"></TextView>
                                 <TextView
+                                    android:id="@+id/ThisMonthReadKWH"
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
                                     android:textSize="17dp"
@@ -383,6 +398,7 @@
                             </LinearLayout>
 
                             <TextView
+                                android:id="@+id/ThisMonth"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:text="This Month"

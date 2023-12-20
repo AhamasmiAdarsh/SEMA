@@ -166,18 +166,22 @@
                 app:layout_constraintTop_toBottomOf="@id/logo"
                 android:orientation="horizontal">
 
-                <ImageView
+                <ImageButton
+                    android:id="@+id/image1"
+                    android:background="@drawable/transparent"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginEnd="10dp"
                     android:clickable="true"
-                    android:src="@drawable/elec"></ImageView>
+                    android:src="@drawable/elec"></ImageButton>
 
-                <ImageView
+                <ImageButton
+                    android:id="@+id/image2"
+                    android:background="@drawable/transparent"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:clickable="true"
-                    android:src="@drawable/wa"></ImageView>
+                    android:src="@drawable/wa"></ImageButton>
 
 
 
@@ -332,7 +336,7 @@
                         android:layout_marginStart="100dp"
                         android:layout_width="100dp"
                         android:layout_height="90dp"
-                        android:src="@drawable/drop"/>
+                        android:src="@drawable/drop"></ImageView>
                 </LinearLayout>
 
                 <LinearLayout
