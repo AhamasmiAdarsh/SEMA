@@ -328,11 +328,7 @@
 
                         </LinearLayout>
                     </LinearLayout>
-                    <ImageView
-                        android:layout_marginStart="100dp"
-                        android:layout_width="100dp"
-                        android:layout_height="90dp"
-                        android:src="@drawable/drop"/>
+
                 </LinearLayout>
 
                 <LinearLayout
