@@ -57,463 +57,120 @@
             app:layout_constraintVertical_bias="1.0" />
     </androidx.constraintlayout.widget.ConstraintLayout>
 
-
-
-        <ScrollView
-
-
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="1.0"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="1.0">
-
-
+    
+    <ScrollView
+        android:layout_width="410dp"
+        android:layout_height="680dp"
+        android:layout_marginTop="70dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/header">
 
         <LinearLayout
-            android:layout_width="match_parent"
+            android:layout_width="380dp"
+            android:layout_marginStart="20dp"
             android:layout_height="wrap_content"
-
-            android:orientation="vertical">
-
+            android:orientation="vertical"
+            android:background="@drawable/bg">
             <LinearLayout
-                android:layout_width="394dp"
-                android:layout_height="184dp"
-                android:layout_marginLeft="9dp"
-                android:layout_marginTop="70dp"
-                android:layout_marginRight="2dp"
-                android:layout_marginBottom="20dp"
-                android:background="@drawable/bg3"
-                android:orientation="vertical">
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                    <androidx.cardview.widget.CardView
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_gravity="center"
 
-                <ImageView
-                    android:id="@+id/imageView3"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginTop="38dp"
+                    app:cardCornerRadius="70dp"> <!-- Additional padding for shadow -->
 
-                    app:layout_constraintBottom_toBottomOf="parent"
-                    app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toTopOf="parent"
-                    app:layout_constraintVertical_bias="0.0"
-                    app:srcCompat="@drawable/prof" />
+                    <ImageView
+                        android:id="@+id/myImageView"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:src="@drawable/prof"
+                        android:scaleType="fitCenter" />
 
-                <ImageView
+                </androidx.cardview.widget.CardView>
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginStart="40dp"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Adarsh Tiwari"
+                        android:textColor="@color/White"
+                        android:textSize="30dp"
+                        android:fontFamily="@font/inder"></TextView>
+                    <TextView
+                        android:layout_gravity="center"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="SEMA ID 764038"
+                        android:textColor="@color/White"
+                        android:alpha="0.7"
+                        android:textSize="18dp"
+                        android:fontFamily="@font/inder"></TextView>
+                </LinearLayout>
 
-                    android:layout_width="60dp"
-                    android:layout_height="46dp"
-                    app:layout_constraintEnd_toStartOf="@+id/textView23"
-                    app:layout_constraintHorizontal_bias="0.0"
-                    app:layout_constraintStart_toStartOf="@+id/textView88"
-                    app:srcCompat="@drawable/star"
-                    tools:layout_editor_absoluteY="176dp" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginStart="20dp"
+                android:orientation="horizontal">
+                <LinearLayout
 
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <ImageView
+                        android:layout_marginTop="5dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/medal"
+                        android:gravity="center"
+                        android:layout_marginEnd="10dp"></ImageView>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Your Points"
+                        android:textColor="@color/White"
+                        android:textSize="14dp"
+                        android:fontFamily="@font/inder"></TextView>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="206"
+                        android:textColor="@color/White"
+                        android:textSize="35dp"
+                        android:layout_gravity="center"
+                        android:fontFamily="@font/inder"></TextView>
+
+                </LinearLayout>
+
+
+                </LinearLayout>
 
             </LinearLayout>
 
-            <Button
-
-                android:layout_width="match_parent"
-                android:layout_height="48dp"
-                android:layout_weight="0.333"
-                android:layout_marginTop="1dp"
-                android:layout_marginBottom="8dp"
-                android:layout_marginStart="8dp"
-                android:layout_marginEnd="8dp"
-                android:background="@drawable/bg3"
-                android:gravity="center|start"
-                android:text="abc@gmail.com"
-                android:textAlignment="gravity"
-                android:textColor="#FFFFFF"
-                android:textStyle="normal"
-                tools:textSize="15sp" />
-
-
-            <Button
-                android:layout_width="match_parent"
-                android:layout_height="48dp"
-                android:layout_marginStart="8dp"
-                android:layout_marginTop="1dp"
-                android:layout_marginEnd="8dp"
-                android:layout_marginBottom="8dp"
-                android:layout_weight="0.333"
-                android:background="@drawable/bg3"
-                android:gravity="center|start"
-
-                android:orientation="vertical"
-                android:text="8888888888"
-                android:textAlignment="gravity"
-                android:textColor="#FFFFFF"
-                android:textStyle="normal"
-                tools:textSize="15sp" />
-
-
-            <TextView
-                android:layout_width="135dp"
-                android:layout_height="23dp"
-                android:layout_marginTop="25dp"
-                android:layout_weight="0.333"
-                android:layout_marginStart="10dp"
-                android:text="Household"
-                android:textAlignment="gravity"
-                android:textColor="#969A9E"
-                android:textStyle="normal"/>
-
-            <Button
-                android:layout_width="match_parent"
-                android:layout_height="48dp"
-                android:layout_gravity="center|start"
-                android:layout_marginStart="8dp"
-                android:layout_marginTop="1dp"
-                android:layout_marginEnd="8dp"
-                android:layout_marginBottom="3dp"
-                android:layout_weight="1"
-                android:orientation="vertical"
-
-                android:text="Family"
-                android:textAlignment="viewStart"
-                android:textColor="#FFFFFF"
-                android:textSize="15sp"
-                android:textStyle="normal" />
-
-            <Button
-                android:layout_width="match_parent"
-                android:layout_height="48dp"
-                android:layout_gravity="center|start"
-                android:layout_marginStart="8dp"
-                android:layout_marginTop="1dp"
-                android:layout_marginEnd="8dp"
-                android:layout_marginBottom="8dp"
-                android:text="abc"
-                android:textAlignment="viewStart"
-                android:textColor="#FFFFFF"
-                android:textSize="15sp"
-                android:textStyle="normal" />
-            
-            <TextureView
-                android:layout_width="112dp"
-                android:layout_height="23dp"
-                android:layout_marginTop="25dp"
-                android:text="Household"
-                android:textAlignment="center"
-                android:textColor="#969A9E"
-                android:textStyle="normal"
-                app:autoSizeTextType="uniform" />
-
-
-            <Button
-                android:layout_width="match_parent"
-                android:layout_height="48dp"
-                android:layout_gravity="center|start"
-                android:layout_marginStart="8dp"
-                android:layout_marginTop="1dp"
-                android:layout_marginEnd="8dp"
-                android:layout_marginBottom="3dp"
-                android:layout_weight="0.333"
-                android:text="abx"
-                android:textAlignment="viewStart"
-                android:textColor="#FFFFFF"
-                android:textSize="15sp"
-                android:textStyle="normal" />
-
-            <Button
-                android:layout_width="match_parent"
-                android:layout_height="48dp"
-                android:layout_gravity="center|start"
-                android:layout_marginStart="8dp"
-                android:layout_marginTop="1dp"
-                android:layout_marginEnd="8dp"
-                android:layout_marginBottom="8dp"
-                android:layout_weight="0.333"
-                android:text="s"
-                android:textAlignment="viewStart"
-                android:textColor="#FFFFFF"
-                android:textSize="15sp"
-                android:textStyle="normal"/>
-
-            <TextView
-                android:id="@+id/textView103"
-                android:layout_width="112dp"
-                android:layout_height="23dp"
-                android:layout_marginTop="25dp"
-                android:layout_weight="0.333"
-                android:text="My Activity"
-                android:textAlignment="center"
-                android:textColor="#969A9E"
-                android:textStyle="normal"
-                app:autoSizeTextType="uniform" />
-
-            <Button
-                android:layout_width="match_parent"
-                android:layout_height="48dp"
-                android:layout_gravity="center|start"
-                android:layout_marginStart="8dp"
-                android:layout_marginTop="1dp"
-                android:layout_marginEnd="8dp"
-                android:layout_marginBottom="3dp"
-                android:layout_weight="0.333"
-                android:text="dd"
-                android:textAlignment="viewStart"
-                android:textColor="#FFFFFF"
-                android:textSize="15sp"
-                android:textStyle="normal" />
-
-            <Button
-                android:layout_width="match_parent"
-                android:layout_height="48dp"
-                android:layout_gravity="center|start"
-                android:layout_marginStart="8dp"
-                android:layout_marginTop="1dp"
-                android:layout_marginEnd="8dp"
-                android:layout_marginBottom="3dp"
-                android:layout_weight="0.333"
-                android:text="dd"
-                android:textAlignment="viewStart"
-                android:textColor="#FFFFFF"
-                android:textSize="15sp"
-                android:textStyle="normal" />
-
-            <Button
-                android:layout_width="match_parent"
-                android:layout_height="48dp"
-                android:layout_gravity="start|center"
-                android:layout_marginStart="8dp"
-                android:layout_marginTop="1dp"
-                android:layout_marginEnd="8dp"
-                android:layout_marginBottom="3dp"
-                android:layout_weight="0.333"
-                android:text="ddd"
-                android:textAlignment="viewStart"
-                android:textColor="#FFFFFF"
-                android:textSize="15sp"
-                android:textStyle="normal" />
-
-            <Button
-                android:layout_width="match_parent"
-                android:layout_height="48dp"
-                android:layout_gravity="center|start"
-                android:layout_marginStart="8dp"
-                android:layout_marginTop="1dp"
-                android:layout_marginEnd="8dp"
-                android:layout_marginBottom="3dp"
-                android:layout_weight="0.333"
-                android:text="ddd"
-                android:textAlignment="viewStart"
-                android:textColor="#FFFFFF"
-                android:textSize="15sp"
-                android:textStyle="normal" />
-
-            <Button
-                android:layout_width="match_parent"
-                android:layout_height="48dp"
-                android:layout_gravity="start|start"
-                android:layout_marginStart="8dp"
-                android:layout_marginTop="1dp"
-                android:layout_marginEnd="8dp"
-                android:layout_marginBottom="3dp"
-                android:layout_weight="0.333"
-                android:text="sss"
-                android:textAlignment="viewStart"
-                android:textColor="#FFFFFF"
-                android:textSize="15sp"
-                android:textStyle="normal" />
-
-            <TextView
-                android:id="@+id/textView101"
-                android:layout_width="87dp"
-                android:layout_height="23dp"
-                android:layout_marginTop="25dp"
-                android:layout_weight="0.333"
-                android:text="Others"
-                android:textAlignment="center"
-                android:textColor="#969A9E"
-                android:textStyle="normal"
-                app:autoSizeTextType="uniform" />
-
-            <Button
-                android:layout_width="match_parent"
-                android:layout_height="48dp"
-                android:layout_gravity="center|start"
-                android:layout_marginStart="8dp"
-                android:layout_marginTop="1dp"
-                android:layout_marginEnd="8dp"
-                android:layout_marginBottom="3dp"
-                android:layout_weight="0.333"
-                android:text="ddd"
-                android:textAlignment="viewStart"
-                android:textColor="#FFFFFF"
-                android:textSize="15sp"
-                android:textStyle="normal" />
-
-            <Button
-                android:layout_width="match_parent"
-                android:layout_height="48dp"
-                android:layout_gravity="center|start"
-                android:layout_marginStart="8dp"
-                android:layout_marginTop="1dp"
-                android:layout_marginEnd="8dp"
-                android:layout_marginBottom="3dp"
-                android:layout_weight="0.333"
-                android:text="sss"
-                android:textAlignment="viewStart"
-                android:textColor="#FFFFFF"
-                android:textSize="15sp"
-                android:textStyle="normal" />
-
-            <Button
-                android:layout_width="match_parent"
-                android:layout_height="48dp"
-                android:layout_gravity="start|center"
-                android:layout_marginStart="8dp"
-                android:layout_marginTop="1dp"
-                android:layout_marginEnd="8dp"
-                android:layout_marginBottom="3dp"
-                android:layout_weight="0.333"
-                android:text="ss"
-                android:textAlignment="viewStart"
-                android:textColor="#FFFFFF"
-                android:textSize="15sp"
-                android:textStyle="normal" />
-
-            <Button
-                android:layout_width="match_parent"
-                android:layout_height="48dp"
-                android:layout_gravity="start|center"
-                android:layout_marginStart="8dp"
-                android:layout_marginTop="1dp"
-                android:layout_marginEnd="8dp"
-                android:layout_marginBottom="3dp"
-                android:layout_weight="0.333"
-                android:text="eww"
-                android:textAlignment="viewStart"
-                android:textColor="#FFFFFF"
-                android:textSize="15sp"
-                android:textStyle="normal" />
-
-            <Button
-                android:layout_width="match_parent"
-                android:layout_height="48dp"
-                android:layout_gravity="center|start"
-                android:layout_marginStart="8dp"
-                android:layout_marginTop="1dp"
-                android:layout_marginEnd="8dp"
-                android:layout_marginBottom="8dp"
-                android:layout_weight="0.333"
-                android:textAlignment="viewStart"
-                android:textColor="#FFFFFF"
-                android:text="www"
-                android:textSize="15sp"
-                android:textStyle="normal"/>
-
-            <Button
-                android:layout_width="match_parent"
-                android:layout_height="48dp"
-                android:layout_gravity="center|start"
-                android:layout_marginStart="8dp"
-                android:layout_marginTop="1dp"
-                android:layout_marginEnd="8dp"
-                android:layout_marginBottom="8dp"
-                android:layout_weight="0.333"
-                android:textAlignment="viewStart"
-                android:textColor="#FFFFFF"
-                android:text="sss"
-                android:textSize="15sp"
-                android:textStyle="normal"/>
-
-            <Button
-                android:layout_width="match_parent"
-                android:layout_height="48dp"
-                android:layout_gravity="center|start"
-                android:layout_marginStart="8dp"
-                android:layout_marginTop="1dp"
-                android:layout_marginEnd="8dp"
-                android:layout_marginBottom="8dp"
-                android:layout_weight="0.333"
-                android:textAlignment="viewStart"
-                android:textStyle="normal"
-                android:textColor="#FFFFFF"
-                android:textSize="15sp"
-                android:text="saa"/>
-
-            <Button
-                android:layout_width="match_parent"
-                android:layout_height="48dp"
-                android:layout_gravity="center|start"
-                android:layout_marginStart="8dp"
-                android:layout_marginTop="1dp"
-                android:layout_marginEnd="8dp"
-                android:layout_marginBottom="8dp"
-                android:layout_weight="0.333"
-                android:textAlignment="viewStart"
-                android:textStyle="normal"
-                android:textColor="#FFFFFF"
-                android:textSize="15sp"
-                android:text="dss"/>
-
-            <Button
-                android:layout_width="match_parent"
-                android:layout_height="48dp"
-                android:layout_gravity="center|start"
-                android:layout_marginStart="8dp"
-                android:layout_marginTop="1dp"
-                android:layout_marginEnd="8dp"
-                android:layout_marginBottom="8dp"
-                android:layout_weight="0.333"
-                android:textAlignment="viewStart"
-                android:textStyle="normal"
-                android:textColor="#FFFFFF"
-                android:textSize="15sp"
-                android:text="dds"/>
-
-            <Button
-                android:layout_width="match_parent"
-                android:layout_height="48dp"
-                android:layout_gravity="start|center"
-                android:layout_marginStart="8dp"
-                android:layout_marginTop="1dp"
-                android:layout_marginEnd="8dp"
-                android:layout_marginBottom="8dp"
-                android:layout_weight="0.333"
-                android:textAlignment="viewStart"
-                android:textStyle="normal"
-                android:textColor="#FFFFFF"
-                android:textSize="15sp"
-                android:text="fff"/>
+            </LinearLayout>
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-        </LinearLayout>
         
         </ScrollView>
-
-
-
-
-
-
-
-
-
-
+    
 </FrameLayout>

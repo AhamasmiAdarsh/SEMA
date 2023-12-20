@@ -102,6 +102,9 @@
                         android:layout_height="match_parent"
                         android:text="AC"
                         android:textColor="@color/White"
+
+
+
                         android:textSize="15dp"
                         android:fontFamily="@font/inder"
                         android:gravity="center"></TextView>
